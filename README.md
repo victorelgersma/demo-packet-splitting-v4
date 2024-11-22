@@ -24,8 +24,5 @@ notice the number of packets making up this GET to /blog
 
 <img width="339" alt="image" src="https://github.com/user-attachments/assets/25d9cc6e-90c7-4b50-956a-a7e5862dc495">
 
+compare with the default astro runtime by running `npm run dev` and doing the same:
 
-
-compare with 
-
-port 4321 when running npm run dev
