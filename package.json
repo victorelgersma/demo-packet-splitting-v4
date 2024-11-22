@@ -1,0 +1,22 @@
+{
+  "name": "better-bar",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "preview:wrangler": "wrangler pages dev ./dist",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^3.1.9",
+    "@astrojs/rss": "^4.0.9",
+    "@astrojs/sitemap": "^3.2.1",
+    "astro": "^4.16.13"
+  },
+  "devDependencies": {
+    "wrangler": "^3.89.0"
+  }
+}
