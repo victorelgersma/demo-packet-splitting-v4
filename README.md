@@ -1,17 +1,15 @@
 The workerd runtime appears to be causing a single GET request to /blog to be transmitted over 147 TCP packets, most of them containing single bytes. 
 
 
-run 
+build
 ```
 npm run build
 ```
 
-run application locally: 
+run on PORT 8788
 ```
 npm run preview:wrangler
 ```
-
-check port 8788
 
 check wireshark:
 
