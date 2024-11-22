@@ -1,4 +1,4 @@
-The workerd runtime appears to be causing a single GET request to /blog to be transmitted over 147 TCP packets, most of them containing single bytes. 
+The workerd runtime appears to be causing a single GET request to /blog to be transmitted over 141 TCP packets, most of them containing single bytes. 
 
 
 build
@@ -25,4 +25,8 @@ notice the number of packets making up this GET to /blog
 <img width="339" alt="image" src="https://github.com/user-attachments/assets/25d9cc6e-90c7-4b50-956a-a7e5862dc495">
 
 compare with the default astro runtime by running `npm run dev` and doing the same:
+
+
+<img width="214" alt="image" src="https://github.com/user-attachments/assets/2dc0c630-b9db-4774-a4bd-8386b95224f9">
+
 
